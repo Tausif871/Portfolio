@@ -7,5 +7,96 @@
 html , body{
     height: 100%;
     width: 100%;
-    background-color: #000;
+}
+
+/* main div style */
+
+#main{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+/* page 1 style */
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+
+
+
+
+/* page1 nav-bar */
+
+#page1>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    position: absolute;
+    z-index: 9;
+    height: 12%;
+    width: 100%;
+}
+
+#center-nav{
+    display: flex;
+    gap: 20px;
+}
+
+#center-nav>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 550;
+    font-size: 18px;
+}
+
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* page1 text left side */
+#text{
+    padding: 30px 50px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 75%;
+    width: 35%;
+    background-color: red;
+}
+
+#text>h1{
+    font-size: 60px;
+    line-height: 1;
+}
+
+#text>h4{
+    margin-top: 20px;
+    color: #2b2b2b;
+}
+
+/* page1 right side img */
+#page1>img{
+    position: absolute;
+    right: 5%;
+    top: 58%;
+    transform: translateY(-50%);
+    width: 50%;
+    
+}
+
+
+
+
+/* page 2 style */
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
 }
